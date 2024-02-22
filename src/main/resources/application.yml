@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    mysql:
+      jdbc-url: jdbc:mysql://mmate-my.dev.flodb.link:3306/mmate?autoReconnect=true&useUnicode=true&characterEncoding=utf8&connectTimeout=10000&socketTimeout=10000&serverTimezone=Asia/Seoul&enabledTLSProtocols=TLSv1.2&allowMultiQueries=true&useSSL=false
+      username: voucher_settlmnt_svc
+      password: 'vmiwD234Fkc^vi!f'
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  batch:
+    job:
+      name: sample
